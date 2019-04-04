@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>BDC Cup</title>
+        <link rel="stylesheet" type="text/css" href="./styles.css">
+	</head>
+	<body>
+        <!-- NAV BAR -->
+		<nav id="header-nav">
+         <!-- DESKTOP-NAVIGATION -->
+            <a href="index.html" class="logo-link">
+                <img src="./img/Logo-header.png" alt="BDC Cup">
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="players.html">The Players</a></li>
+                <li><a href="courses.html">The Courses</a></li>
+                <li><a href="rules.html">The Rules</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+        <div class="seperation"></div>
+        <!-- THE PLAYERS -->
+        <div class="container-players">
+            <div class="overlay">
+                <p class="screen">THE PLAYERS</p>
+                <div class="intro">
+                    <button class="button-players" onclick="fadeOut()">PROFILES</button>
+                </div>
+            </div>
+            <div class="overlay-2"></div>
+            <div class="content-players">
+                <h1>The Players</h1>
+                    <div class="profile_Clemens">
+                        <p class="name">Clemens Röhrbein</p>
+                        <p>Age: 29</p>
+                        <p>Golf Club: Verden</p>
+                        <p>Hcp: 8,4</p>
+                        <p>18-hole record: 79</p>
+                    </div>
+                    <div class="profile_Alex">
+                        <p class="name">Alexander Cordesmeyer</p>
+                        <p>Age: 29</p>
+                        <p>Golf Club: An der Pinnau</p>
+                        <p>Hcp: 4,4</p>
+                        <p>18-hole record: 73</p>
+                    </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
